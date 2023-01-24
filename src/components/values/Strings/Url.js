@@ -1,5 +1,5 @@
 
-const baseUrl = "https://testbackaxiosvercel.vercel.app/";
+const baseUrl = "https://demographics-backend-second.vercel.app/";
 
 
 //nba

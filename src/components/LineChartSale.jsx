@@ -98,7 +98,7 @@ const LineChartSale = ({ isDashboard = false, newRender }) => {
     //`http://localhost:4000/api/get-docs-month`
     try {
 //proResponseProductsDocsUrl
-      const resultado = await axios.get("http://localhost:4000/api/get-docs-month")
+      const resultado = await axios.get(proResponseProductsDocsUrl)
       console.log("resultado formateado",resultado.data)
 
       setDataTest1(resultado.data)

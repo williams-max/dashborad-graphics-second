@@ -99,7 +99,7 @@ const LineChartSaleTrimester = ({ isDashboard = false, newRender }) => {
 
     try {
       //proResponseProductsDocsTrimesterUrl
-      const resultado = await axios.get("http://localhost:4000/api/get-docs-trimester")
+      const resultado = await axios.get(proResponseProductsDocsTrimesterUrl)
       console.log("resultado formateado", resultado.data)
 
       setDataTest1(resultado.data)
